@@ -8,10 +8,10 @@
     'use strict';
 
     module.exports = {
-        Client : require('./lib/tvone-client/Client'),
-        SerialAdapter : require('./lib/tvone-client/adapter/SerialPortAdapter'),
-        TcpAdapter : require('./lib/tvone-client/adapter/TcpAdapter'),
-        Message : require('./lib/tvone-client/Message')
+        Client : require('./lib/Client'),
+        SerialAdapter : require('./lib/adapter/SerialPortAdapter'),
+        TcpAdapter : require('./lib/adapter/TcpAdapter'),
+        Message : require('./lib/Message')
     };
 
 })();

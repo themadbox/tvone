@@ -7,11 +7,11 @@
 (function() {
     'use strict';
 
-    const Client = require('./lib/tvone-client/Client');
-    const SerialPortAdapter = require('./lib/tvone-client/adapter/SerialPortAdapter');
-    const TcpAdapter = require('./lib/tvone-client/adapter/TcpAdapter');
-    const Parser = require('./lib/tvone-client/parser/Parser');
-    const Message = require('./lib/tvone-client/Message');
+    const Client = require('./lib/Client');
+    const SerialPortAdapter = require('./lib/adapter/SerialPortAdapter');
+    const TcpAdapter = require('./lib/adapter/TcpAdapter');
+    const Parser = require('./lib/parser/Parser');
+    const Message = require('./lib/Message');
     const Utils = require('./lib/Utils');
 
     let prompt = require('prompt');
