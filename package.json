@@ -1,0 +1,22 @@
+{
+    "name": "tvone",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "example": "node example.js"
+    },
+    "devDependencies": {
+        "serialport": "^4.0.7",
+        "prompt": "^1.0.0"
+    },
+    "keywords": [
+        "javascript",
+        "tvone",
+        "scaler"
+    ],
+    "author" : {
+        "name" : "antonino visalli",
+        "email" : "antonino.visalli@gmail.com"
+    }
+}
