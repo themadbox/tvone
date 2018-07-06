@@ -23,7 +23,7 @@ let tcpAdapter = new tvone.TcpAdapter(
     10001 
 );
 
-// Create seial adapter with default value
+// Create serial adapter with default value
 let serialAdapter = new tvone.SerialAdapter(
     '/dev/ttyUSB0'
 );
