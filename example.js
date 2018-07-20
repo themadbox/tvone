@@ -17,7 +17,7 @@
     let prompt = require('prompt');
 
     let adapter = new TcpAdapter(
-        '192.168.10.111',
+        '192.168.10.198',
         10001
     );
 
@@ -51,6 +51,12 @@
                     break;
                 case 'loadPreset' :
                     client.sendMessage(new Message('LOAD_PRESET', '000001'));
+                    break;
+                case 'setOutputD' :
+                    client.sendMessage(new Message('SET_OUTPUT', '000011'));
+                    break;
+                case 'setOutputH' :
+                    client.sendMessage(new Message('SET_OUTPUT', '000010'));
                     break;
                 default:
                     console.error(Utils.RED_CONSOLE, 'Wrong command');
